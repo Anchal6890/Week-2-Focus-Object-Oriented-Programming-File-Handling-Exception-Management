@@ -1,7 +1,16 @@
-file_path = "sample.txt"
-with open(file_path, "w") as file:
-    file.write("Welcome to Python File Handling")
+def collect_feedback():
 
-with open(file_path, "r") as file:
-    content = file.read()
-    print(content)
+ name = input("Enter your name: ")
+
+ feedback = input("Enter your feedback: ")
+
+ with open("feedback.txt", "a") as file:
+
+ file.write(f"Name: {name}, Feedback: {feedback}\n")
+
+ print("Thank you for your feedback!")
+
+    collect_feedback()
+
+
+    
