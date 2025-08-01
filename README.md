@@ -3,34 +3,59 @@
 
 ---
 
-## ✅ Core Tasks
 
-### 1️⃣ Core Task 1: Create Custom Classes
-- This task demonstrates how to define and use custom classes with:
-  - `__init__()` constructor
-  - Instance methods
-  - Class objects
-- 📄 File: `core_task_1_custom_classes.py`
+# 📘 Core Tasks – Week 2
 
-### 2️⃣ Core Task 2: Inheritance & Access Modifiers
-- A **Vehicle Management System** using:
-  - Inheritance
-  - Method overriding
-  - Public, protected (`_`), and private (`__`) members
-- 📄 File: `core_task_2_inheritance_vehicle_system.py`
+### 👩‍💻 Submitted by: Anchal Singh 
+### 📁 File: `Week_2_Core_Tasks_Final.pdf`  
+### 📅 Week: 2  
 
-### 3️⃣ Core Task 3: File Handling
-- Read/write student records from/to a text file.
-- Demonstrates:
-  - `open()`, `read()`, `write()`, `with` statement
-- 📄 File: `core_task_3_file_handling.py`
+---
 
-### 4️⃣ Core Task 4: Exception Handling
-- Try-except blocks to manage errors such as:
-  - Division by zero
-  - File not found
-  - Type errors, etc.
-- 📄 File: `core_task_4_exception_handling.py`
+## 📋 Overview
+
+This document contains solutions for all **4 Core Tasks** assigned in Week 2 of the Python Internship Program. Each task demonstrates core Python concepts including object-oriented programming, file handling, and exception handling.
+
+---
+
+## ✅ Task Details
+
+### 🔹 Task 1: Create Custom Classes
+- Created a `Student` class using `__init__()` constructor.
+- Displayed student details using a method.
+- Demonstrated creation and use of class objects.
+
+### 🔹 Task 2: Inheritance & Access Modifiers
+- Implemented a `Vehicle` base class and a `Car` child class.
+- Demonstrated public, protected (`_`), and private (`__`) access modifiers.
+- Used `super()` to initialize inherited attributes.
+
+### 🔹 Task 3: File-Based Data Storage
+- Collected user input (name and feedback).
+- Stored feedback in a text file using `with open()`.
+- Ensured proper file handling with append mode.
+
+### 🔹 Task 4: Exception-Safe Code
+- Handled `ZeroDivisionError` and `ValueError` using `try-except-finally`.
+- Performed basic arithmetic operation safely.
+- Ensured user-friendly error messages.
+
+---
+
+## 📎 Output
+
+Each task includes a code block followed by its respective output to verify correctness.
+
+---
+
+## 💼 Project Structure
+```
+core_tasks_week2/
+│
+├── Week_2_Core_Tasks_Final.pdf
+├── README.md
+└── feedback.txt (generated from Task 3)
+```
 
 ---
 
